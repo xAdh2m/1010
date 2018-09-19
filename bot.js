@@ -51,6 +51,7 @@ joined info-selfie
 ! Selfie.                              
 الدعووة خاصة لك ي قلبي ... [ ${member}  ]
 **`) 
-}).catch(console.error)
-})
-client.login('MzUxODc5ODA3ODg3MzQzNjQ0.DIZB2g.gBlWvlUD0wnPq30jNKp36Co4AM4');
+    }
+});
+
+client.login(process.env.BOT_TOKEN);
